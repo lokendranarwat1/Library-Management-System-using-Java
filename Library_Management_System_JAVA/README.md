@@ -17,12 +17,17 @@ Before running the project, install:
 ## 🖥️ Folder Structure
 Library_Management_System_JAVA/
 ├─ BackEnd/ ← Backend (Spring Boot)
+
 │ ├─ src/
+
 │ └─ pom.xml
+
 ├─ FrontEnd/ ← Frontend (React + Tailwind)
-│ ├─ src/
-│ └─ package.json
-└─ .vscode/ ← Don't Touch🚫
+
+  ├─ src/
+
+  └─ package.json
+
 
 ---
 
@@ -101,4 +106,5 @@ Change server.port in application.yml if needed.
 3. Run frontend:
     > cd FrontEnd
     > npm run dev
+
 4. Visit http://localhost:5173
