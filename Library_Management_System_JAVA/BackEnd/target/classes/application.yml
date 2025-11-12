@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      # fallback default (not used by custom templates but useful for boot health)
+      uri: mongodb://localhost:27017/library_central
+
+mongo:
+  north:
+    uri: mongodb://localhost:27017
+    database: library_north
+  south:
+    uri: mongodb://localhost:27017
+    database: library_south
+  central:
+    uri: mongodb://localhost:27017
+    database: library_central

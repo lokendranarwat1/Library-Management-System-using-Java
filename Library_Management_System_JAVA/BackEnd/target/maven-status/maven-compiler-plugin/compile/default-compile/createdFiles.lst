@@ -1,0 +1,9 @@
+com\example\library\model\IssuedBook.class
+com\example\library\model\Book.class
+com\example\library\service\CampusService.class
+com\example\library\model\Student.class
+com\example\library\controller\LibraryController.class
+com\example\library\service\CentralService.class
+com\example\library\repo\GenericRepository.class
+com\example\library\config\MultiMongoConfig.class
+com\example\library\LibraryApplication.class
