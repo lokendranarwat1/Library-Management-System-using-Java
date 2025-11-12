@@ -16,6 +16,7 @@ Before running the project, install:
 
 ## 🖥️ Folder Structure
 Library_Management_System_JAVA/
+
 ├─ BackEnd/ ← Backend (Spring Boot)
 
 │ ├─ src/
@@ -108,3 +109,4 @@ Change server.port in application.yml if needed.
     > npm run dev
 
 4. Visit http://localhost:5173
+
